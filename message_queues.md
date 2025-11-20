@@ -12,15 +12,21 @@
 ### Why are message queues used?
 
 Messaging queues solve important problems in large systems:
+
 **1. Decoupling:** Two systems don’t need to know about each other directly.
+
 **2. Reliability:** If one service crashes, messages stay in the queue safely.
+
 **3. Scalability:** Queues can handle millions of messages without breaking.
+
 **4. Async processing:** Useful for tasks that shouldn't block the main app
 (e.g., sending emails, payment processing, notifications).
+
 **5. Load Management:** Helps distribute workload smoothly.
 
 ### What are the popular messaging queue tools?
 - Here are the most commonly used tools:
+  
 **1. RabbitMQ**
 - Very popular
 - Easy to use
